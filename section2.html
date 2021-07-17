@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.1/css/all.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/section2.css">
+    <title>Section 2 | 123Data</title>
+</head>
+<body>
+
+    <h1 id='hSection'>SECTION <span>2</span></h1>
+    <h4>explanatory design</h4>
+
+    <form class="closedForm2" autocomplete="off">
+        <i class="fas fa-search"></i> <input class="chosen-value2" type="text" value="" placeholder="Rechercher une oeuvre" name="chosen-value2">   
+        <ul class="value-list2">
+          <li id="liTest" rangLi ='2' class="liRang">Income Inequality in Los Angeles, Chicago, New York, Paris</li> 
+          <li class="liRang">Data Strings</li>
+          <li class="liRang">Wind of Istanbul</li>
+          <li rangLi="0" class="liRang">Disease Squeeze</li>
+          <li class="liRang">Sounds Like Trouble</li>
+          <li class="liRang">Trillions of Trees</li>
+          <li class="liRang">Facebook Algorithmic Factory</li>
+          <li class="liRang">Histography</li>
+          <li class="liRang">Lostalgic</li>
+          <li class="liRang">Love of Guns</li>
+          <li class="liRang">One Angry Bird</li>
+          <li class="liRang">Earth Insights</li>
+        </ul>
+      </form>
+
+ <!-- Swiper -->
+ <div class="swiper-container" >
+  <div class="swiper-wrapper ">
+    <div class="swiper-slide swiper-slide-active" rangSlider='0'>
+
+    <div class="project-wrapper" >
+        <div class="project-container" id="first-container">
+            <div class="overlay"></div>
+            <div class="content">
+
+                <h2 id="h21">Disease Squeeze</h2>
+                <h3>Pitch Interactive</h3>
+                <div class="temps"></div>
+                <input type="range" value="35" min="0" max="35" class="barre"/>    
+                <div class="controls">
+                    <div class="column"><i class="fas fa-volume-up volume" aria-hidden="true"></i></div>  
+                    <div class="column"><img class="moinsTemps" src="css/img/icons/timer-moins.svg" alt=""></div>
+                    <div class="column" onclick="lireAudio(audio)"><i class="fa fa-play play-btn fa-fw" aria-hidden="true"></i></div>
+                    <div class="column"><img  class="plusTemps" src="css/img/icons/timer-plus.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <p class='pTxt'> <span class="txtDebut">
+     L’espérance de vie ne cesse de croître année après année
+    et ce partout dans le monde. Toutefois, selon le « Institute
+    for Health Metrics and Evaluation » basé à Seattle,
+    cet allongement de la vie se voit marqué, pour bon nombre
+    de personnes, par la maladie (affections souvent graves
+    et de longue durée). Cette infographie présente les causes
+    de décès et les facteurs d’invalidité des personnes entre 1990
+    et 2013 dans les pays développés et en voie de développement.
+    Si certaines valeurs diminuent dans le temps (comme celles
+    relatives aux morts prématurées ainsi qu’aux décès des suites
+    de maladies cardiovasculaire), d’autres en revanche sont
+    à la hausse.
+      </span>
+    <!-- </span><button class="plus">Lire plus...</button><span class="txtSuite"> -->
+  </p>
+
+</div>
+
+<div class="swiper-slide" rangSlider='1'>
+
+  <div class="project-wrapper">
+    <div class="project-container" id="second-container">
+        <div class="overlay"></div>
+        <div class="content">
+
+            <h2 id="h22">Sounds Like Trouble</h2>
+            <h3>Pitch Interactive</h3>
+            <div class="temps"></div>
+            <input type="range" value="38" min="0" max="38" class="barre"/>    
+            <div class="controls">
+                <div class="column"><i class="fas fa-volume-up volume" aria-hidden="true"></i></div>  
+                <div class="column"><img class="moinsTemps" src="css/img/icons/timer-moins.svg" alt=""></div>
+                <div class="column" onclick="lireAudio(audioTab[nbAudio])"><i class="fa fa-play play-btn fa-fw" aria-hidden="true"></i></div>
+                <div class="column"><img  class="plusTemps" src="css/img/icons/timer-plus.svg" alt=""></div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+  <p class='pTxt'> <span class="txtDebut">
+    Les bruits innondent notre quotidien (tondeuse à gason,
+    outillage électrique, voiture, etc.). Parmi eux, ceux les plus
+    élevés en décibels sont dit de nature « récréative » : musiques,
+    jeux vidéos, TV/cinéma, etc. Étonnament, un nombre considérable
+    de personnes négligent les troubles et désagréments
+    que provoque le bruit. Si certains s’en plaignent, ils n’estiment
+    pas nécéssaire de devoir s’en protéger. Exploitant des jeux
+    de données produits par l’Université de Californie (Irvine),
+    l’agence Pitch Interactive a réalisé une infographie comparant
+    les pourcentages de personnes qui s’exposent aux nuisances
+    sonores de celles qui s’en prémunissent (panel de plusieurs
+    millions d’individus sur l’année 2017). </span> 
+  <!-- </span><button class="plus">Lire plus...</button><span class="txtSuite"> -->
+  </p>
+
+</div>
+
+<div class="swiper-slide " rangSlider='2'>
+
+  <div class="project-wrapper">
+    <div class="project-container" id="third-container">
+        <div class="overlay"></div>
+        <div class="content">
+
+            <h2 id="h23">Trillions of Trees</h2>
+            <h3>Jan Willem Tulp</h3>
+            <div class="temps"></div>
+            <input type="range" value="48" min="0" max="48" class="barre"/>    
+            <div class="controls">
+                <div class="column"><i class="fas fa-volume-up volume" aria-hidden="true"></i></div>  
+                <div class="column"><img class="moinsTemps" src="css/img/icons/timer-moins.svg" alt=""></div>
+                <div class="column" onclick="lireAudio(audioTab[nbAudio])"><i class="fa fa-play play-btn fa-fw" aria-hidden="true"></i></div>
+                <div class="column"><img  class="plusTemps" src="css/img/icons/timer-plus.svg" alt=""></div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+  <p class='pTxt'> <span class="txtDebut">
+    Le projet <i>Trillions of Trees</i> propose une visualisation graphique
+des 3,04 billions d’arbres estimés sur terre. S’y trouve ici
+représentés, notamment, 1,30 billion de forêts tropicales
+et subtropicales, 740 milliards de forêts boréales et 660 milliards
+de forêts tempérées. Autres informations chiffrées des plus
+alarmantes : une estimation récente porte le nombre d’arbres
+abattus par an à 15 milliards ; la quantité globale d’arbres
+sur terre aurait diminué d’environ 46 % depuis le début de
+la civilisation humaine. Fort de cette visualisation du designer
+Jan Willem Tulp, il est alors permis à chacun de se rendre
+compte de l’actuelle occupation spatiale de la « fourrure »
+arborée sur terre.
+    </span> 
+  <!-- </span><button class="plus">Lire plus...</button><span class="txtSuite"> -->
+  </p>
+
+</div>
+
+<div class="swiper-slide " rangSlider='3'>
+
+    <div class="project-wrapper">
+      <div class="project-container" id="fourth-container">
+          <div class="overlay"></div>
+          <div class="content">
+  
+              <h2 id="h24">Facebook Algorithmic Factory</h2>
+              <h3>Share Lab</h3>
+              <div class="temps"></div>
+              <input type="range" value="43" min="0" max="43" class="barre"/>    
+              <div class="controls">
+                  <div class="column"><i class="fas fa-volume-up volume" aria-hidden="true"></i></div>  
+                  <div class="column"><img class="moinsTemps" src="css/img/icons/timer-moins.svg" alt=""></div>
+                  <div class="column" onclick="lireAudio(audioTab[nbAudio])"><i class="fa fa-play play-btn fa-fw" aria-hidden="true"></i></div>
+                  <div class="column"><img  class="plusTemps" src="css/img/icons/timer-plus.svg" alt=""></div>
+              </div>
+          </div>
+      </div>
+  </div>  
+  
+    <p class='pTxt'> <span class="txtDebut">
+     Ce graphe s’intègre au sein d’une étude exploratoire plus large, menée sous la direction de Vladan Joler, consacrée aux modes de production (soit de collecte, d’exploitation des données) et d’organisation du travail au sein de la société Facebook. S’agissant de l’analyse de sa <i>fabrique</i>, celle-ci se divise en 3 volets : 1 — constitution d’une collection de données (<i>Immaterial Labour</i> and <i>Data harvesting </i>) ; 2 — stockage et traitement algorithmique des données (<i>Human Data Banks and Algorithmic Labour</i>) ; 3 — valorisation et ciblage (<i>Quantified lives on discount</i>). En ce ce qui concerne l’étude des conduites organisationnelles et stratégies managériales, l’objectif premier est ici de faire jour sur les différentes « strates » hiérarchiques (couvrant différents niveaux de pouvoir) au sein l’entreprise. 
+        </span> 
+    <!-- </span><button class="plus">Lire plus...</button><span class="txtSuite"> -->
+    </p>
+  
+  </div>
+
+</div>
+
+ <!-- Add Pagination -->
+ <div class="swiper-pagination"></div>
+<!-- Add Arrows -->
+<div class="btPrev btRang btDisabled"><i class="fal fa-chevron-left"></i></div>
+<div class="btNext btRang"> <i class="fal fa-chevron-right"></i></div>
+
+</div>
+
+<div id='menu'>
+
+    <div class="hero__wrapper">
+        <div class="hero__phone">
+            <button class="menu__button">
+                <div>
+                    <div>
+                    </div>
+                </div>
+                MENU</button>
+            <section class="menu__body" hidden="hidden">
+                <div class="menu__header">
+                    <label for="chosen-value-id"><i class="fas fa-search"></i></label>
+                    <form class="closedForm" autocomplete="off">
+                        <input class="chosen-value" type="text" value="" placeholder="Rechercher une oeuvre" name="chosen-value" id="chosen-value-id">   
+                        <ul class="value-list">
+                          <li class="liRang">Income Inequality in Los Angeles, Chicago, New York, Paris</li> 
+                          <li class="liRang">Data Strings</li>
+                          <li class="liRang">Wind of Istanbul</li>
+                          <li class="liRang">Disease Squeeze</li>
+                          <li class="liRang">Sounds Like Trouble</li>
+                          <li class="liRang">Trillions of Trees</li>
+                          <li class="liRang">Facebook Algorithmic Factory</li>
+                          <li class="liRang">Histography</li>
+                          <li class="liRang">Lostalgic</li>
+                          <li class="liRang">Love of Guns</li>
+                          <li class="liRang">One Angry Bird</li>
+                          <li class="liRang">Earth Insights</li>
+                        </ul>
+                      </form>
+                    <p></p>
+                    <button title="Close"><i class="fas fa-times-circle"></i></button>
+                </div>
+                <div class="menu__links"><a href="index.html">ACCUEIL</a><a href="section1.html">SECTION 1</a> <a href="section3.html">SECTION 3</a> </div>
+                <div class="menu__contact">
+
+                    <a href="tel:0615964604"> <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewbox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path></svg><span>Téléphone</span></a>
+                    <a href="mailto:nicolas.menuel@esadd.fr"><svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewbox="0 0 24 24" width="24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><span>Email</span></a>
+                    <a href="https://www.google.com/maps/dir//esadd/@47.3440633,5.0106397,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47ed63384604147d:0xf5b8e196ee2c51eb!2m2!1d5.0476681!2d47.3545184" target="_blank" > <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewbox="0 0 24 24" width="24"><path d="M21.71 11.29l-9-9c-.39-.39-1.02-.39-1.41 0l-9 9c-.39.39-.39 1.02 0 1.41l9 9c.39.39 1.02.39 1.41 0l9-9c.39-.38.39-1.01 0-1.41zM14 14.5V12h-4v3H8v-4c0-.55.45-1 1-1h5V7.5l3.5 3.5-3.5 3.5z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><span>Itinéraire</span></a>
+                </div>
+            </section>
+            <div class="menu__overlay" hidden="hidden"></div>
+      
+    </div>
+
+</div>
+</div>
+
+    <h1 id="dailyui">2</h1>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/bundle.js"></script>
+    <script src="js/section2.js"></script>
+</body>
+</html> 
